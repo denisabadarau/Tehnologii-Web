@@ -1,21 +1,23 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(poza1.jpg);
+    background: url(pozas.jpg);
     font-family: sans-serif;
     background-size: cover;
     background-position:center top;
 }
-.login-box {
+.signIn-box {
     width: 320px;
     height: 420px;
-    background: rgb(36, 35, 35);
+    background: rgb(2, 2, 2);
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
+    width: 350px;
+    height: 500px;
     padding: 70px 30px;
 
 }
@@ -26,7 +28,7 @@ body{
     border: 90%;
     position: fixed;
     top: -4px;
-    left: 120px;
+    left: 130px;
 
 }
 
@@ -38,25 +40,25 @@ h1 {
     color: #b0b4b4;
 }
 
-.login-box p{
+.signIn-box p{
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
 
-.login-box a{
+.signIn-box a{
     margin: 0;
     padding: 0;
     font-weight: bold;
     color: #878888;
 }
 
-.login-box input{
+.signIn-box input{
     width: 100%;
     margin-bottom: 20px;
 }
 
-.login-box input[type = "text"], input[type = "password"] {
+.signIn-box input[type = "text"], input[type = "password"], input[type = "password"], input[type="text"] {
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -66,7 +68,7 @@ h1 {
     font-size: 16px;
 }
 
-.login-box input[type = "submit"] {
+.signIn-box input[type = "submit"] {
     border: none;
     outline: none;
     height: 40px;
