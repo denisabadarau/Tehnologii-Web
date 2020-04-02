@@ -39,7 +39,8 @@
             display: inline-block;
             color: white;
             text-align: center;
-            padding: 14px 60px;
+            font-family: Family-Guy;
+            padding: 20px 45px ;
             text-decoration: none;
         }
         li a:hover,
@@ -72,7 +73,7 @@
         }
 
         p.title {
-            font-family: verdana;
+            font-family: Family-Guy;
             font-size: 20px;
             text-align: center;
             color: grey
