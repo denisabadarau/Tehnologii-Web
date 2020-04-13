@@ -20,13 +20,9 @@
     }
 
         /*Acest style este pentru meniul principa/*/
-        body {
-            background-color: white;
-        }
+       
         ul {
             list-style-type: none;
-            margin-left: 0px;
-            margin-right: 0px;
             overflow: hidden;
             background-color: #333;
         }
@@ -40,7 +36,7 @@
             color: white;
             text-align: center;
             font-family: Family-Guy;
-            padding: 20px 45px ;
+            padding: 20px 20px 20px 20px;
             text-decoration: none;
         }
         li a:hover,
@@ -53,20 +49,19 @@
         .dropdown-content {
             display: none;
             position: absolute;
-            background-color: slategray;
-            min-width: 160px;
+            background-color: #333;
+            
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             z-index: 1;
         }
         .dropdown-content a {
-            color: black;
-            padding: 12px 65px;
-            text-decoration: none;
+            color: white;
             display: block;
-            text-align: left;
+            text-align: center;
         }
         .dropdown-content a:hover {
             background-color: #f1f1f1;
+            color:black;
         }
         .dropdown:hover .dropdown-content {
             display: block;

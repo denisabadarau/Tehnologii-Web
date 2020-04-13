@@ -27,15 +27,7 @@
     
   }
 
-  /*imaginile din paginile individuale*/
-  .imagineSingle{
-    margin:26px;
-    width:30%;
-    height:auto;
-    text-align: right;
-    float:left;
-
-  }
+  
   @font-face { font-family: Family-Guy; src: url('../fonts/Family-Guy.TTF'); } 
   
   @font-face { font-family: Multicolore-Regular; src: url('../fonts/Multicolore-Regular.TTF'); } 
